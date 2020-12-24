@@ -9,7 +9,7 @@
   <!-- Create a mat expansion panel with a title Take a note and create a simple form
   which takes note title and content and add the note to the db.json
   Apply the CSS accordingly-->  
-  
+  <note-create (addedNote)="addNote($event)"></note-create>
   
     </div>
 
@@ -19,7 +19,21 @@
     -->
 
     <section class="notes-list-container">
-           
+      <!-- <div class="search-wrapper">
+        <mat-form-field class="search">
+          <input matInput placeholder="Search" [(ngModel)]="searchTerm">
+        </mat-form-field>
+      </div> -->
+      <mat-grid-list cols="5" rowHeight="170px" class="grid-list">
+        <mat-grid-tile
+            *ngFor="let note of notes | search:searchTerm">
+          <note 
+            [note]="note"
+            [noteChange]="noteChange"
+            [deleteNote]="deleteNote"
+          ></note>
+      </mat-grid-tile>
+      </mat-grid-list>
     </section>
 
 

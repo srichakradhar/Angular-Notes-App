@@ -1,3 +1,23 @@
 /*
 Define the necessary CSS for NavbarComponent HTML elements
 */
+.submenu mat-icon{
+    color: orange;
+}
+
+mat-list-item {
+    /* margin: 0px 30px; */
+    padding: 15px;
+}
+
+mat-list-item span{
+    padding: 15px;
+}
+
+.category h4 {
+    padding: 0 15px;
+}
+
+.submenu {
+padding: 0 30px 0 0;
+}

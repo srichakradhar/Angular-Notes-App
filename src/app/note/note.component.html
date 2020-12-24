@@ -1,0 +1,14 @@
+<mat-card 
+  class="note"
+  [ngClass]="{'done': note.isDone}"
+> 
+  <div (click)="toEditPage()" class="note-list">
+    <mat-card-header class="note-header">
+      <mat-card-title>{{ note.noteTitle }}</mat-card-title>
+    </mat-card-header>
+    <hr>
+    <mat-card-content class="note-content">
+      {{ note.noteContent }}
+    </mat-card-content>
+  </div>
+</mat-card>

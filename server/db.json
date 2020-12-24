@@ -1,9 +1,29 @@
 {
   "notes": [
-   /* {
+    {
       "id": 1,
       "noteTitle": "Project Review Meeting sdf",
       "noteContent": "Need to attend Project Review Meeting with Project manager"
-    }*/
+    },
+    {
+      "noteTitle": "Unit Test Cases for User Module",
+      "noteContent": "Writing unit test cases for user module",
+      "id": 2
+    },
+    {
+      "noteTitle": "Updating Angular CLI to 10.0.7",
+      "noteContent": "Updating Angular CLI from 8.1.0 to 10.0.7",
+      "id": 3
+    },
+    {
+      "noteTitle": "Read Angular10 blog",
+      "noteContent": "Needs to read Angular10 new features blog",
+      "id": 4
+    },
+    {
+      "noteTitle": "Project Meeting-completed",
+      "noteContent": "Project meeting is completed today discussed on architecture",
+      "id": 5
+    }
   ]
 }

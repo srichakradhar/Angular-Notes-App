@@ -1,0 +1,16 @@
+.note {
+    position: relative;
+    width: 14rem;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.note-header {
+    justify-content: center;
+}
+
+.note-content {
+    text-align: left;
+}
